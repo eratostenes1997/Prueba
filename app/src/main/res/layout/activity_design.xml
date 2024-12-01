@@ -6,5 +6,22 @@
     <com.example.prueba.ui.PolygonCanvasView
         android:id="@+id/canvasView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        android:background="@android:color/white" />
+
+    <SeekBar
+        android:id="@+id/seekBarScale"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/btnSaveFigure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Guardar Figura"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@id/seekBarScale" />
 </RelativeLayout>
