@@ -1,15 +1,11 @@
-#Aplicación para generar polígonos
+# Aplicación para generar polígonos
 
-<p>
- esta app permite la creación de y modificación de poligonos y cuenta con las siguientes funciones: 
-</p>
+Esta app permite la creación y modificación de polígonos y cuenta con las siguientes funciones:
 
-<ol>
-<li>Carga una lista de polígonos usando una ApiREST</li>
-<li>Se puede guardar un polígono y visualizarlo una vez se abra la aplicación</li>
-<li>Se puede seleccionar la opción de polígono regular, escoger el número de lados y luego visualizarlo</li>
-<li>Se modificar el poligono haciendo click en uno de sus vertices y moverlo, adicionalmente tambien se puede modificar la escala con un Seekbar</li>
-</ol>
+1. Carga una lista de polígonos usando una API REST.
+2. Se puede guardar un polígono y visualizarlo una vez se abra la aplicación.
+3. Se puede seleccionar la opción de polígono regular, escoger el número de lados y luego visualizarlo.
+4. Se modifica el polígono haciendo clic en uno de sus vértices y moviéndolo. Adicionalmente, también se puede modificar la escala con un `Seekbar`.
 
 <h2>
 
